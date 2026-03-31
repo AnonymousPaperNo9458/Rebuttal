@@ -14,7 +14,7 @@
 
 ---
 
-**Table II. Rank-based comparison for the ablation study.** Following prior recommendations (Demsar, JMLR 2006), we report average ranks instead of mean performance to compare our method with its ablated variants. We consider two ranking protocols: (1) *Avg Rank (4 datasets)* computes the average rank across Waterbirds, CelebA, Texture, and PACS, where PACS is treated as a single dataset by averaging performance over its four domains before ranking; (2) *Avg Rank (15 settings)* treats each PACS source→target pair (12 in total) as an individual setting, together with the other three datasets. **N=64 and Training Loss are set to match the corresponding settings of MetaWeightNet (MW-Net).**
+**Table II. Rank-based comparison for the ablation study [1].** Two ranking protocols are considered: (1) *Avg Rank (4 datasets)* computes the average rank across Waterbirds, CelebA, Texture, and PACS, where PACS is treated as a single dataset by averaging performance over its four domains before ranking; (2) *Avg Rank (15 settings)* treats each PACS source→target pair (12 in total) as an individual setting, together with the other three datasets. **N=64 and Training Loss are set to match the corresponding settings of MetaWeightNet (MW-Net).**
 
 | Method | Ablation Component | Avg Rank (4 datasets) ↓ | Avg Rank (15 settings) ↓ |
 |:-:|:-:|:-:|:-:|
@@ -27,5 +27,5 @@
 
 
 
-
+[1] Demšar J. Statistical comparisons of classifiers over multiple data sets[J]. Journal of Machine learning research, 2006, 7(Jan): 1-30.
 
