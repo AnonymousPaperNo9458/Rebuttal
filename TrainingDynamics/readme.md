@@ -7,7 +7,7 @@
   <img src="./BZ64_TrainingDynamics.png" width="70%">
 </p>
 
-**Figure 1.** Training dynamics for batch size 64: (a) the maximum *normalized* weight $\max_i p_i$, (b) the mean *unnormalized* weight $\hat{\mathbb{E}}[w_i] = S/N$, (c) the variance $\mathrm{Var}(p_i)$, and (d) the effective batch size $B_{\mathrm{eff}} = \left(\sum_i p_i^2\right)^{-1}$. Colors indicate datasets. Shaded regions show mean $\pm$ std across independent batches.
+**Figure I.** Training dynamics for batch size 64: (a) the maximum *normalized* weight $\max_i p_i$, (b) the mean *unnormalized* weight $\hat{\mathbb{E}}[w_i] = S/N$, (c) the variance $\mathrm{Var}(p_i)$, and (d) the effective batch size $B_{\mathrm{eff}} = \left(\sum_i p_i^2\right)^{-1}$. Colors indicate datasets. Shaded regions show mean $\pm$ std across independent batches.
 
 ---
 
@@ -16,7 +16,7 @@
   <img src="./BZ256_TrainingDynamics.png" width="70%">
 </p>
 
-**Figure 1.** Training dynamics for batch size 256: (a) the maximum *normalized* weight $\max_i p_i$, (b) the mean *unnormalized* weight $\hat{\mathbb{E}}[w_i] = S/N$, (c) the variance $\mathrm{Var}(p_i)$, and (d) the effective batch size $B_{\mathrm{eff}} = \left(\sum_i p_i^2\right)^{-1}$. Colors indicate datasets. Shaded regions show mean $\pm$ std across independent batches.
+**Figure II.** Training dynamics for batch size 256: (a) the maximum *normalized* weight $\max_i p_i$, (b) the mean *unnormalized* weight $\hat{\mathbb{E}}[w_i] = S/N$, (c) the variance $\mathrm{Var}(p_i)$, and (d) the effective batch size $B_{\mathrm{eff}} = \left(\sum_i p_i^2\right)^{-1}$. Colors indicate datasets. Shaded regions show mean $\pm$ std across independent batches.
 
 ---
 
@@ -25,7 +25,7 @@
   <img src="./BZ512_TrainingDynamics.png" width="70%">
 </p>
 
-**Figure 1.** Training dynamics for batch size 512: (a) the maximum *normalized* weight $\max_i p_i$, (b) the mean *unnormalized* weight $\hat{\mathbb{E}}[w_i] = S/N$, (c) the variance $\mathrm{Var}(p_i)$, and (d) the effective batch size $B_{\mathrm{eff}} = \left(\sum_i p_i^2\right)^{-1}$. Colors indicate datasets. Shaded regions show mean $\pm$ std across independent batches.
+**Figure III.** Training dynamics for batch size 512: (a) the maximum *normalized* weight $\max_i p_i$, (b) the mean *unnormalized* weight $\hat{\mathbb{E}}[w_i] = S/N$, (c) the variance $\mathrm{Var}(p_i)$, and (d) the effective batch size $B_{\mathrm{eff}} = \left(\sum_i p_i^2\right)^{-1}$. Colors indicate datasets. Shaded regions show mean $\pm$ std across independent batches.
 
 ---
 
@@ -34,5 +34,5 @@
   <img src="./BZ1024_TrainingDynamics.png" width="70%">
 </p>
 
-**Figure 1.** Training dynamics for batch size 1024: (a) the maximum *normalized* weight $\max_i p_i$, (b) the mean *unnormalized* weight $\hat{\mathbb{E}}[w_i] = S/N$, (c) the variance $\mathrm{Var}(p_i)$, and (d) the effective batch size $B_{\mathrm{eff}} = \left(\sum_i p_i^2\right)^{-1}$. Colors indicate datasets. Shaded regions show mean $\pm$ std across independent batches.
+**Figure IV.** Training dynamics for batch size 1024: (a) the maximum *normalized* weight $\max_i p_i$, (b) the mean *unnormalized* weight $\hat{\mathbb{E}}[w_i] = S/N$, (c) the variance $\mathrm{Var}(p_i)$, and (d) the effective batch size $B_{\mathrm{eff}} = \left(\sum_i p_i^2\right)^{-1}$. Colors indicate datasets. Shaded regions show mean $\pm$ std across independent batches.
 
